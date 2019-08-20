@@ -1,0 +1,19 @@
+//Convertir texto a numero
+var x = prompt ("Ingrese un numero: ");
+var y = prompt ("Ingrese un numero: ");
+
+var numerox= parseInt(x); //parse Int entero
+var numeroy= parseFloat(y);
+//parse float (); para numeros con decimales o reales
+console.log('Pueba de Escrito: ');
+document.write('Prueba de escrito: ');
+
+console.log ('x: ' + x);
+document.write('x: ' + x);
+console.log ('y: ' + y);
+document.write('y: '+ y);
+
+console.log('x: ' + numerox);
+document.write('x: ' + numerox);
+console.log('y: ' + numeroy);
+document.write('y: ' + numeroy);
