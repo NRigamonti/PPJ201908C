@@ -1,0 +1,75 @@
+<html>
+<head>
+
+</head>
+
+<body>
+<script>
+/*
+var x = prompt ("Ingrese un numero: ");
+var y = prompt ("Ingrese un numero: ");
+
+var numerox= parseInt(x); //parse Int entero
+var numeroy= parseFloat(y);
+//parse float (); para numeros con decimales o reales
+console.log('Pueba de Escrito: ');
+document.write('Prueba de escrito: ');
+
+console.log ('x: ' + x);
+document.write('x: ' + x);
+console.log ('y: ' + y);
+document.write('y: '+ y);
+
+console.log('x: ' + numerox);
+document.write('x: ' + numerox);
+console.log('y: ' + numeroy);
+document.write('y: ' + numeroy);
+
+console.log('Funciones definidas por el usuario: ');
+document.write ('Funciones definidas por el usuario: <br>');
+//funcion definida por el usuario
+var resultado= 0;
+console.log("---------------------------------");
+document.write("-------------------------------");
+
+function suma_y_muestra(){
+	var numero1 = parseInt(prompt("Ingrese el primer sumando: ")); 
+	var numero2 = parseInt(prompt("Ingrese el segundo sumando: "));
+	resultado= numero1 + numero2;
+	alert ("El resultado es " + resultado);
+	
+	return resultado;
+}
+suma_y_muestra();
+console.log("respuesta: "+ resultado);
+document.write("respuesta: <br>"+ resultado);
+
+var precio1= parseInt(prompt("Ingrese el precio"));
+var porcentajeimpuestos1= parseInt(prompt("Ingrese el porcentaje de impuestos")); 
+function calculapreciototal(precio,porcentajeimpuestos){
+	var gastosenvio= 10;
+	var precioconimpuestos = (1 + porcentajeimpuestos/100)*precio;
+	var preciototal = precioconimpuestos + gastosenvio;
+	return preciototal.toFixed(2);
+}
+var preciototal = calculapreciototal(precio1,porcentajeimpuestos1);
+document.write(preciototal);
+*/
+
+var numero = parseInt(prompt("Ingrese un numero entero"));
+var resultado= parimpar(numero);
+alert("El numero "+numero+" es "+resultado);
+
+function parimpar(numero){
+	if(numero % 2 == 0){
+		return "par";
+	}
+	else{
+		return "impar";
+	}
+}
+document.write(numero);
+console.log(numero);
+</script>
+</body>
+</html>
