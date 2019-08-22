@@ -1,0 +1,27 @@
+<html><head>
+</head>
+<body>
+<script>
+var dias = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"];
+var q = dias.length;
+for (var i = 0; i < q; i++){
+	alert(dias[i]);
+}
+
+var numero = prompt ("Introduce un numero y se mostrara su factorial");
+var resultado = 1;
+
+for (var i=1; i<=numero; i++){
+	resultado *=i;
+}
+alert(resultado);
+
+
+var dias = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"];
+
+for(i in dias){
+	alert (dias[i]);
+}
+</script>
+</body>
+</html>
