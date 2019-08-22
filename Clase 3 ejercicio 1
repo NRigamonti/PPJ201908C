@@ -1,0 +1,30 @@
+<html><head>
+</head>
+<body>
+
+<script>
+
+var mostrado= prompt("Ingrese un valor boleano");
+var usuariopermitemensajes= prompt("Ingrese un valor boleano");
+
+if(!mostrado && usuariopermitemensajes){
+	alert("es la primera vez que se muestra el mensaje");
+}
+
+var variableswitch = prompt("Ingrese un dato a evaluar");;
+var respuestanumero = parseInt(variableswitch);
+switch (respuestanumero){
+	case "23":
+		document.write ("Usted ingreso <b>23</b> como texto");
+		
+	break;
+	case 23:
+		document.write ("Usted ingreso 23 como numero");
+	break;
+	
+	default:
+			document.write ("no es ninguna opción");
+}
+</script>
+</body>
+</html>
